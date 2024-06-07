@@ -13,7 +13,7 @@
   <title>High Quality Copper</title>
 </head>
 
-<body class="debg">
+<body class="debug">
   <!-- ANCHOR Header -->
   <header class="container-fluid">
     <div class="row bg-success">
@@ -28,42 +28,50 @@
   <main>
     <!-- ANCHOR Form -->
     <section class="container-fluid form-bg-img">
-      <div class="row">
-        <div class="col-4 mt-5">
-          <form>
-            <div class="mb-3">
-              <input type="name" class="form-control" id="top-f-name" placeholder="NAME">
-            </div>
-            <div class="mb-3">
-              <input type="email" class="form-control" id="top-f-mail" placeholder="EMAIL">
-            </div>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col mb-3">
-                  <input type="text" class="form-control" placeholder="PHONE" aria-label="PHONE">
+      <div class="row form-bg-color justify-content-between">
+        <div class="col-4">
+          <p class="ms-5 mt-5 mb-2 text-light fs-5">Questions?</p>
+          <div class="row">
+            <div class="col-12 mb-5 ms-5 bg-light pt-4 pb-5">
+              <form>
+                <div class="mb-3">
+                  <h2 class="fs-3 pb-3 text-success">Questions?</h2>
+                  <input type="name" class="form-control" id="top-f-name" placeholder="NAME">
                 </div>
-                <div class="col mb-3">
-                  <input type="text" class="form-control" placeholder="EXT." aria-label="EXT.">
+                <div class="mb-3">
+                  <input type="email" class="form-control" id="top-f-mail" placeholder="EMAIL">
                 </div>
-              </div>
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col mb-3">
+                      <input type="text" class="form-control" placeholder="PHONE" aria-label="PHONE">
+                    </div>
+                    <div class="col mb-3">
+                      <input type="text" class="form-control" placeholder="EXT." aria-label="EXT.">
+                    </div>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <textarea class="form-control" id="top-f-txt-area" rows="3" placeholder="MESSAGE"></textarea>
+                </div>
+                <div class="form-check mb-3">
+                  <input class="form-check-input" type="checkbox" value="" id="srv-terms-check">
+                  <label class="form-check-label" for="srv-terms-check">
+                    By checking this box I agree to the Terms of Service
+                  </label>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-success" type="submit">SUBMIT</button>
+                </div>
+              </form>
             </div>
-            <div class="mb-3">
-              <textarea class="form-control" id="top-f-txt-area" rows="3" placeholder="MESSAGE"></textarea>
-            </div>
-            <div class="form-check mb-3">
-              <input class="form-check-input" type="checkbox" value="" id="srv-terms-check">
-              <label class="form-check-label" for="srv-terms-check">
-                By checking this box I agree to the Terms of Service
-              </label>
-            </div>
-            <div class="col-12">
-              <button class="btn btn-success" type="submit">SUBMIT</button>
-            </div>
-          </form>
+          </div>
         </div>
-        <div class="col-6">
-          <h1>Lorem ipsum dolor sit.</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, dolorum. Ex, accusamus.</p>
+        <div class="col-6 d-flex  align-items-center">
+          <div class="over-img-text text-light me-5">
+            <h1>Lorem ipsum dolor sit.</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, dolorum. Ex, accusamus.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -102,25 +110,29 @@
       </div>
     </section>
     <!-- ANCHOR Buy Now -->
-    <secion class="container-fluid">
+    <section class="container-fluid">
       <div class="row justify-content-between">
-        <div class="col-3">
-          <img class="img-fluid ms-5"
+        <div class="col-4">
+          <img class="img-fluid mx-5"
             src="https://images.unsplash.com/photo-1541617392762-9bd12653bd12?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="A bunch of fantastic copper">
         </div>
-        <div class="col-8">
-          <i class="mdi mdi-shield-check"></i>
-          <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum saepe amet mollitia obcaecati. Excepturi
-            exercitationem natus, delectus illo placeat magnam voluptas deserunt autem quo repellat, vitae ratione quae
-            accusantium aut. Culpa adipisci qui nesciunt, accusamus fugiat et hic. Consectetur saepe repellat, magnam
-            doloremque officia voluptas debitis consequuntur animi a atque id cum, repellendus voluptatem ratione error
-            rerum omnis odio, eum iusto. Ratione voluptatibus iure sint!</p>
-          <button class="btn btn-success">Buy Now</button>
+        <div class="col-7 me-5">
+          <div>
+            <i class="mdi mdi-shield-check"></i>
+            <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum saepe amet mollitia obcaecati. Excepturi
+              exercitationem natus, delectus illo placeat magnam voluptas deserunt autem quo repellat, vitae ratione
+              quae
+              accusantium aut. Culpa adipisci qui nesciunt, accusamus fugiat et hic. Consectetur saepe repellat, magnam
+              doloremque officia voluptas debitis consequuntur animi a atque id cum, repellendus voluptatem ratione
+              error
+              rerum omnis odio, eum iusto. Ratione voluptatibus iure sint!</p>
+            <button class="btn btn-success">Buy Now</button>
+          </div>
         </div>
       </div>
-    </secion>
+    </section>
     <!-- ANCHOR Reviews -->
     <section class="container-fluid">
       <div class="row">

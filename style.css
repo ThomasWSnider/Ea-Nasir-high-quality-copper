@@ -1,3 +1,13 @@
 .form-bg-img {
   background-image: url(//cdn.thecollector.com/wp-content/uploads/2024/02/bronze-age-civilizations-top.jpg);
 }
+
+.form-bg-color {
+  background-color: rgba(0, 0, 0, 0.684);
+}
+
+.over-img-text {
+  border-left: 10px solid green;
+  background-color: rgba(0, 128, 0, 0.6);
+  padding-left: 5px;
+}
