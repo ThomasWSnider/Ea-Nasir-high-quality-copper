@@ -18,6 +18,18 @@
 
 .card-offset {
   position: absolute;
-  top: 105px;
+  top: 125px;
   right: 100px;
+}
+
+.buy-shield {
+  font-size: 5em;
+}
+
+.more-margin {
+  margin-top: 5em;
+}
+
+.side-margin {
+  margin-right: 5em;
 }
