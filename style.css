@@ -1,9 +1,35 @@
 :root {
-  --bronze: #CD7F32;
+  --color-primary: #cc8d67;
+  --color-highlight: #7fe7ce;
+  --text-primary: #f8f9fa;
+  --text-secondary: #212529;
+}
+
+.text-color-primary {
+  color: var(--color-primary);
+}
+
+.text-color-highlight {
+  color: var(--color-highlight);
+}
+
+.text-shadow {
+  text-shadow: 1px 1px black;
 }
 
 .color-primary {
-  background-color: var(--bronze);
+  background-color: var(--color-primary);
+}
+
+.btn {
+  background-color: var(--color-highlight);
+  color: var(--text-secondary);
+  padding: .25em 1.2em;
+}
+
+.btn:hover {
+  background-color: #58a59f;
+  color: var(--text-primary);
 }
 
 .cinzel {
@@ -26,7 +52,7 @@
 }
 
 .over-img-text {
-  border-left: 10px solid green;
+  border-left: 10px solid var(--color-primary);
   padding-left: 2em;
 }
 
@@ -36,7 +62,7 @@
 
 .card-offset {
   position: absolute;
-  top: 125px;
+  top: 4.2em;
   right: 100px;
 }
 
