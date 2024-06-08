@@ -1,3 +1,22 @@
+:root {
+  --bronze: #CD7F32;
+}
+
+.color-primary {
+  background-color: var(--bronze);
+}
+
+.cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-subtle {
+  color: #ffffff79;
+}
+
 .form-bg-img {
   background-image: url(//cdn.thecollector.com/wp-content/uploads/2024/02/bronze-age-civilizations-top.jpg);
 }
@@ -8,8 +27,7 @@
 
 .over-img-text {
   border-left: 10px solid green;
-  background-color: rgba(0, 128, 0, 0.6);
-  padding-left: 5px;
+  padding-left: 2em;
 }
 
 .nasir-blurb {
