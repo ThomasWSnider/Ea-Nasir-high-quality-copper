@@ -123,6 +123,11 @@
   padding-left: 8em;
 }
 
+.buy-now {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
 #top-f-txt-area {
   resize: none;
 }
@@ -158,4 +163,14 @@
   .card-offset {
     position: unset;
   }
+
+  .buy-now {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .more-margin {
+    margin-top: 0;
+  }
+
 }
