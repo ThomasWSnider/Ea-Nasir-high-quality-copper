@@ -1,6 +1,6 @@
 :root {
   --color-primary: #cc8d67;
-  --color-highlight: #7fe7ce;
+  --color-highlight: #71d4cc;
   --text-primary: #f8f9fa;
   --text-secondary: #212529;
 }
@@ -19,6 +19,26 @@
 
 .color-primary {
   background-color: var(--color-primary);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar-tag {
+  color: var(--text-secondary);
+  font-weight: bold;
+  padding: 1.2em 0.75em;
+}
+
+.nav-bar-tag:hover {
+  background-color: #a1baa1;
 }
 
 .form-btn {
@@ -130,6 +150,10 @@
 
 #top-f-txt-area {
   resize: none;
+}
+
+#top-f-phone {
+  margin-left: 0;
 }
 
 #mt-owner-right {

@@ -30,20 +30,27 @@
         </div>
       </div>
       <!-- TODO add section navigators -->
-      <div class="col-6">
+      <div class="col-6 d-none d-md-flex justify-content-end align-items-center">
+        <ul>
+          <a href="#home" class="nav-bar-tag">Home</a>
+          <a href="#features" class="nav-bar-tag">Features</a>
+          <a href="#buy-now" class="nav-bar-tag">Shop</a>
+          <a href="#reviews" class="nav-bar-tag">Reviews</a>
+          <a href="#meet-the-owner" class="nav-bar-tag">About</a>
+        </ul>
       </div>
     </div>
   </header>
 
   <main>
     <!-- ANCHOR Form -->
-    <section class="container-fluid form-bg-img">
+    <section class="container-fluid form-bg-img" id="home">
       <div class="row form-bg-color justify-content-evenly">
         <div class="col-11 col-md-4">
           <div class="row">
             <div class="col-12">
               <!-- ANCHOR Start of Form -->
-              <div class="mt-5 mb-5 bg-light p-4 shadow">
+              <div class="mt-5 mb-5 bg-light p-4 shadow rounded-2">
                 <form>
                   <div class="mb-3">
                     <h2 class="fs-3 pb-3 text-dark">Questions?</h2>
@@ -54,11 +61,12 @@
                   </div>
                   <div class="container-fluid">
                     <div class="row">
-                      <div class="col-6 mb-3">
-                        <input type="text" class="form-control" placeholder="PHONE" aria-label="PHONE">
+                      <div class="col-7 mb-3 ps-0">
+                        <input type="text" class="form-control " id="top-f-phone" placeholder="PHONE"
+                          aria-label="PHONE">
                       </div>
-                      <div class="col-6 mb-3">
-                        <input type="text" class="form-control" placeholder="EXT." aria-label="EXT.">
+                      <div class="col-5 mb-3 pe-0">
+                        <input type="text" class="form-control" id="top-f-ext" placeholder="EXT." aria-label="EXT.">
                       </div>
                     </div>
                   </div>
@@ -81,9 +89,9 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6">
-          <div class=" d-none d-md-flex align-items-center">
-            <div class="over-img-text text-light me-5 nasir-blurb text-shadow">
+        <div class="col-12 col-md-6 d-md-flex align-items-end d-none">
+          <div class="align-items-end mb-5">
+            <div class="over-img-text text-light me-5 nasir-blurb text-shadow mb-5">
               <h1 class="fw-bold">Lorem ipsum dolor sit.</h1>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, dolorum. Ex, accusamus.</p>
             </div>
@@ -92,7 +100,7 @@
       </div>
     </section>
     <!-- ANCHOR Features -->
-    <section class="container-fluid">
+    <section class="container-fluid" id="features">
       <div class="row py-md-5 pt-3 justify-content-center justify-content-md-start color-primary position-relative">
         <div class="col-12 col-md-4 order-2 order-md-1  ">
           <div class=" py-5 ms-md-5 pt-md-3 pb-md-5 text-light">
@@ -102,7 +110,7 @@
               vitae voluptates.</p>
           </div>
         </div>
-        <div class="col-11 col-md-6 shadow bg-light p-4 card-offset order-1 order-md-unset">
+        <div class="col-11 col-md-6 shadow bg-light p-4 card-offset order-1 order-md-unset rounded-2">
           <div class="row">
             <div class="col-12">
               <div class="py-2 d-flex align-items-center">
@@ -139,11 +147,11 @@
       </div>
     </section>
     <!-- ANCHOR Buy Now -->
-    <section class="container-fluid">
+    <section class="container-fluid" id="buy-now">
       <div class="row justify-content-md-between align-content-center shadow flex-column flex-md-row buy-now py-4">
         <div class="col-12 col-md-4">
           <div>
-            <img class="img-fluid mx-md-5 maybe-vid"
+            <img class="img-fluid mx-md-5 maybe-vid rounded-2"
               src="https://images.unsplash.com/photo-1541617392762-9bd12653bd12?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="A bunch of fantastic copper">
           </div>
@@ -151,10 +159,11 @@
         <div class="col-12 col-md-7">
           <div class="d-flex flex-column align-items-center me-md-5 more-margin">
             <i class="mdi mdi-shield-check buy-shield text-color-highlight"></i>
-            <h4 class="fs-1"> Lorem ipsum, dolor sit amet consectetur
+            <h4 class="fs-1 mx-3 mx-md-0"> Lorem ipsum, dolor sit amet consectetur
               adipisicing
               elit.</h4>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum saepe amet mollitia obcaecati. Excepturi
+            <p class="mx-3 mx-md-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum saepe amet mollitia
+              obcaecati. Excepturi
               exercitationem natus, delectus illo placeat magnam voluptas deserunt autem quo repellat, vitae ratione
               quae
               accusantium aut. Culpa adipisci qui nesciunt, accusamus fugiat et hic. Consectetur saepe repellat, magnam
@@ -165,7 +174,10 @@
               <div class="col-12">
                 <div class="text-center my-md-5">
                   <!-- TODO Add animation to button? -->
-                  <button class="btn buy-btn fw-bold">Buy Now</button>
+
+                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><button
+                      class="btn buy-btn fw-bold">Buy
+                      Now</button></a>
                 </div>
               </div>
             </div>
@@ -175,51 +187,58 @@
       </div>
     </section>
     <!-- ANCHOR Reviews -->
-    <section class="container-fluid">
+    <section class=" container-fluid" id="reviews">
       <div
         class="row justify-content-md-evenly align-items-md-center d-column d-md-row bg-dark-subtle padding-top-1 padding-bottom-1 py-4">
         <!-- TODO fix card sizing -->
-        <div class="col-12 col-md-4">
-          <div
-            class="shadow bg-light mb-4 py-md-1 ms-md-5 me-md-3 px-md-3 text-center d-flex flex-column order2 order-md-1">
+        <div class="col-12 col-md-4  order-2 order-md-1">
+          <div class="shadow bg-light mb-4 py-md-1 ms-md-5 me-md-3 px-md-3 text-center d-flex flex-column rounded-2">
             <i class="mdi mdi-format-quote-open fs-1 align-self-start"></i>
-            <p class="mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ipsam impedit. Rerum saepe
+            <p class="mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ipsam
+              impedit. Rerum saepe
               libero totam,
               quasi, ad odio dolorem ratione repellat sed facilis, nemo aspernatur.</p>
-            <p class="mb-0 fw-bold">-review by</p>
-            <p class="fw-bold">Nanni</p>
+            <div class="text-color-primary">
+              <p class="mb-0 fw-bold">-review by</p>
+              <p class="fw-bold">Nanni</p>
+            </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
-          <div
-            class="shadow bg-light mb-4 py-md-1 margin-sides px-md-3 text-center d-flex flex-column order-1 order-md-2">
+        <div class="col-12 col-md-4 order-1 order-md-2">
+          <div class="shadow bg-light mb-4 py-md-1 margin-sides px-md-3 text-center d-flex flex-column rounded-2">
             <div class="d-flex justify-content-md-center justify-content-evenly">
               <i class="mdi mdi-star-circle pos-review-star"></i>
               <i class="mdi mdi-star-circle neg-review-star"></i>
               <i class="mdi mdi-star-circle neg-review-star"></i>
             </div>
             <i class="mdi mdi-format-quote-open align-self-start fs-1"></i>
-            <p class="mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ipsam impedit. Rerum saepe
+            <p class="mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ipsam
+              impedit. Rerum saepe
               libero totam,
               quasi, ad odio dolorem ratione repellat sed facilis, nemo aspernatur.</p>
-            <p class="mb-0 fw-bold">-review by</p>
-            <p class="fw-bold">Nanni</p>
+            <div class="text-color-primary">
+              <p class="mb-0 fw-bold">-review by</p>
+              <p class="fw-bold">Nanni</p>
+            </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
-          <div class="shadow bg-light mb-4 py-md-1 ms-md-3 me-md-5 px-md-3 text-center d-flex flex-column order-3">
+        <div class="col-12 col-md-4  order-3">
+          <div class="shadow bg-light mb-4 py-md-1 ms-md-3 me-md-5 px-md-3 text-center d-flex flex-column rounded-2">
             <i class="mdi mdi-format-quote-open fs-1 align-self-start"></i>
-            <p class="mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ipsam impedit. Rerum saepe
+            <p class="mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ipsam
+              impedit. Rerum saepe
               libero totam,
               quasi, ad odio dolorem ratione repellat sed facilis, nemo aspernatur.</p>
-            <p class="mb-0 fw-bold">-review by</p>
-            <p class="fw-bold">Nanni</p>
+            <div class="text-color-primary">
+              <p class="mb-0 fw-bold">-review by</p>
+              <p class="fw-bold">Nanni</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- ANCHOR About the Owner -->
-    <section class="container-fluid">
+    <section class="container-fluid" id="meet-the-owner">
       <div class="row align-items-between color-primary justify-content-between">
         <div class="col-12 col-md-2 ps-0">
           <div id="ea-nasir" class="">
@@ -239,7 +258,7 @@
 
     </section>
     <!-- ANCHOR Footer -->
-    <footer class="container-fluid">
+    <footer class="container-fluid" id="links">
       <div class="row justify-content-md-evenly align-content-md-center align-items-start bg-dark text-md-center py-5">
         <div class="col-12 col-md-2">
           <div class="text-light ms-3 ">
@@ -257,10 +276,12 @@
         <div class="col-12 col-md-2">
           <div class="text-light ms-3">
             <h5>Socials:</h5>
-            <a href=""><i class="mdi mdi-github fs-4 text-color-primary"></i></a>
-            <a href=""><i class="mdi mdi-spotify fs-4 text-color-primary"></i></a>
-            <a href=""><i class="mdi mdi-twitter fs-4 text-color-primary"></i></a>
-            <a href=""><i class="mdi mdi-linkedin fs-4 text-color-primary"></i></a>
+            <a href="https://github.com/" target="_blank"><i class="mdi mdi-github fs-4 text-color-primary"></i></a>
+            <a href="https://open.spotify.com/" target="_blank"><i
+                class="mdi mdi-spotify fs-4 text-color-primary"></i></a>
+            <a href="https://x.com/?lang=en" target="_blank"><i class="mdi mdi-twitter fs-4 text-color-primary"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i
+                class="mdi mdi-linkedin fs-4 text-color-primary"></i></a>
           </div>
         </div>
       </div>
