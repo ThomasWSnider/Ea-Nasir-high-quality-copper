@@ -150,4 +150,12 @@
   .form-btn {
     width: 100%;
   }
+
+  .form-bg-img {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Complaint_tablet_to_Ea-Nasir_2023.JPG/1200px-Complaint_tablet_to_Ea-Nasir_2023.JPG);
+  }
+
+  .card-offset {
+    position: unset;
+  }
 }
