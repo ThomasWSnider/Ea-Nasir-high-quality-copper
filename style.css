@@ -36,6 +36,7 @@
 .btn:hover {
   background-color: #58a59f;
   color: var(--text-primary);
+
 }
 
 .cinzel {
@@ -61,6 +62,8 @@
 
 .form-bg-img {
   background-image: url(//cdn.thecollector.com/wp-content/uploads/2024/02/bronze-age-civilizations-top.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .form-bg-color {
@@ -124,10 +127,27 @@
   resize: none;
 }
 
-#ea-nasir {
-  height: 25vh;
+#mt-owner-right {
+  max-height: 100%;
   aspect-ratio: 1/1;
-  object-fit: cover;
-  border-radius: 50%;
-  object-position: top;
+  border: 1px solid none;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Complaint_tablet_to_Ea-Nasir_2023.JPG/800px-Complaint_tablet_to_Ea-Nasir_2023.JPG);
+  background-size: cover;
+}
+
+#ea-nasir {
+  max-height: 100%;
+  aspect-ratio: 1/1;
+  border: 1px solid none;
+  border-bottom-right-radius: 50%;
+  background-image: url(https://pbs.twimg.com/profile_images/1757848042433318914/BulDLPls_400x400.png);
+  background-size: cover;
+  background-position: center, top;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  .form-btn {
+    width: 100%;
+  }
 }
