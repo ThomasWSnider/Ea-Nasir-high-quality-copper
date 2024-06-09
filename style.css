@@ -46,7 +46,7 @@
 }
 
 .pos-review-star {
-  color: gold;
+  color: var(--color-highlight);
   font-size: 8vw;
 }
 
@@ -122,4 +122,12 @@
 
 #top-f-txt-area {
   resize: none;
+}
+
+#ea-nasir {
+  height: 25vh;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: top;
 }
