@@ -21,10 +21,16 @@
   background-color: var(--color-primary);
 }
 
-.btn {
+.form-btn {
   background-color: var(--color-highlight);
   color: var(--text-secondary);
   padding: .25em 1.2em;
+}
+
+.buy-btn {
+  background-color: var(--color-highlight);
+  color: var(--text-secondary);
+  width: 33vh;
 }
 
 .btn:hover {
@@ -37,6 +43,16 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+.pos-review-star {
+  color: gold;
+  font-size: 8vw;
+}
+
+.neg-review-star {
+  color: #393c3f69;
+  font-size: 8vw;
 }
 
 .text-subtle {
@@ -67,7 +83,7 @@
 }
 
 .buy-shield {
-  font-size: 5em;
+  font-size: 10em;
 }
 
 .more-margin {
@@ -76,6 +92,11 @@
 
 .side-margin {
   margin-right: 5em;
+}
+
+.margin-sides {
+  margin-left: 2.5em;
+  margin-right: 2.5em;
 }
 
 .padding-top-1 {
@@ -92,6 +113,11 @@
 
 .padding-bottom-2 {
   padding-bottom: 10em;
+}
+
+.padding-sides-1 {
+  padding-right: 8em;
+  padding-left: 8em;
 }
 
 #top-f-txt-area {
