@@ -151,6 +151,10 @@
   background-repeat: no-repeat;
 }
 
+.shadow {
+  box-shadow: 0 1em .5em black;
+}
+
 @media screen and (max-width: 768px) {
   .form-btn {
     width: 100%;
@@ -175,6 +179,16 @@
 
   .buy-btn {
     width: 85vw;
+  }
+
+  .pos-review-star {
+    color: var(--color-highlight);
+    font-size: 24vw;
+  }
+
+  .neg-review-star {
+    color: #393c3f69;
+    font-size: 24vw;
   }
 
   .margin-sides {
