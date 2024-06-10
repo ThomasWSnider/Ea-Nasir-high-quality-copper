@@ -35,10 +35,13 @@ ul {
   color: var(--text-secondary);
   font-weight: bold;
   padding: 1.2em 0.75em;
+  transition: .2s ease-in;
 }
 
 .nav-bar-tag:hover {
   background-color: #a1baa1;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .form-btn {
@@ -102,7 +105,7 @@ ul {
 .card-offset {
   position: absolute;
   top: 4.2em;
-  right: 100px;
+  right: 45px;
 }
 
 .buy-shield {
@@ -110,7 +113,7 @@ ul {
 }
 
 .more-margin {
-  margin-top: 5em;
+  margin-top: 10em;
 }
 
 .side-margin {
