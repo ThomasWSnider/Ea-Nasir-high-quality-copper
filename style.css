@@ -151,6 +151,11 @@ ul {
   padding-bottom: 5em;
 }
 
+.yt {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
 #top-f-txt-area {
   resize: none;
 }
